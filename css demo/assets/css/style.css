@@ -27,6 +27,27 @@ Adobe using 1895 Spring catalogue cover - roses and peonies
     max-width: 900px;
 }
 
+.img-right{
+  float:right;
+  margin: 10px 0 10px 20px;
+  border: 1px solid #c0c0c0;
+  padding:5px;
+}
+
+.img-left{
+  float:left;
+  margin: 10px 20px 10px 0;
+  border: 1px solid #c0c0c0;
+  padding:5px;
+}
+
+.img-center{
+  display:block;
+  margin:20px auto;
+  border: 1px solid #c0c0c0;
+  padding:5px;
+}
+
 
 /* ------------------Responsive Images ------------------*/
 
@@ -187,6 +208,71 @@ footer#colophon{
     text-transform:uppercase;
     /* ------------------SVG Background ------------------*/
     background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+table{
+  width:100%;
+  border: 1px solid #c0c0c0;
+  border-collapse:collapse;
+}
+
+caption{
+  font-weight:bold;
+  font-size:1.5rem;
+  margin:10px;
+}
+
+th {
+  background:#3b638b;
+  color:#ffffff;
+  text-align:left;
+  padding:10px;
+}
+
+td{
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
+
+tr:nth-child(even){
+  background:#DCDCDC;
+}
+
+tr:hover{
+  background:lightsteelblue;
+}
+
+#additional-elements ol{
+  list-style-type:upper-roman;
+}
+
+#additional-elements ul ul {
+ list-style-type:square;
+}
+
+#additional-elements dl{
+
+}
+
+#additional-elements dt{
+font-weight:bold;
+font-size:1.2rem;
+margin-top:
+}
+
+#additional-elements dd{
+  margin:0;
+}
+
+dd + dt {
+  margin-top:20px;
+}
+
+#additional-elements blockquote{
+  background-color:rgba(0,0,0,.1);
+  padding:40px;
+  border-top:5px solid #c0c0c0;
+  border-bottom:5px solid #c0c0c0;
 }
 
 
